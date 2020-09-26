@@ -50,6 +50,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 This is a practice for the [IGTI bootcamp](https://www.igti.com.br/). "Fundamentos Bootcamp de Desenvolvimento Front End" 2020
 
 <img src="./CalcJS.png"/>
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
