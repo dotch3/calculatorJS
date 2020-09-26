@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperCalculadora JS</title>
+    <!-- Icons -->
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Calculadora JS</h1>
+    <section>
+        <div class="row container">
+
+            <div class="input-field col s4">
+
+                <i class="material-icons prefix">create</i>
+                <input id="numberA" type="number" class="validate">
+                <label for="numberA">Ingresse o numero 'A'</label>
+                <span class="helper-text" data-error="Numero invalido" data-success="Numero valido"></span>
+            </div>
+            <div class="input-field col s4">
+
+                <i class="material-icons prefix">create</i>
+                <input id="numberB" type="number" class="validate">
+                <label for="numberB">Ingresse o numero 'B'</label>
+                <span class="helper-text" data-error="Numero invalido" data-success="Numero valido"></span>
+            </div>
+
+
+
+        </div>
+    </section>
+    <section>
+        <div class="row container">
+            <h4 id="listResults"> <i class="material-icons prefix">laptop_chromebook</i> Cálculos:
+            </h4>
+        </div>
+
+        <div class="row container">
+            <div id="operations"></div>
+        </div>
+    </section>
+    <script defer src="./js/script.js"></script>
+</body>
+
+</html>

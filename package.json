@@ -1,0 +1,25 @@
+{
+  "name": "calculadora_javascript",
+  "version": "1.0.0",
+  "description": "calculadora utilizando JavaScript puro",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dotch3"
+  },
+  "keywords": [
+    "calculator",
+    "pure",
+    "javaScript",
+    "igti"
+  ],
+  "author": "jorge.mercado",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
